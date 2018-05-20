@@ -49,10 +49,16 @@
     <Filter Include="Resource Files\engine\objdetect\haarcascade">
       <UniqueIdentifier>{e3d7a277-272a-4561-b375-8f74e98bcfeb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\ArchiveReader">
+      <UniqueIdentifier>{8fcab236-137a-4184-893c-7b472b215411}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArchiveReader.cpp">
+      <Filter>Source Files\ArchiveReader</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -167,5 +173,10 @@
     <Text Include="App\engine\font\fontawesome\LICENSE.txt">
       <Filter>Resource Files\engine\font\fontawesome</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArchiveReader.hpp">
+      <Filter>Source Files\ArchiveReader</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
